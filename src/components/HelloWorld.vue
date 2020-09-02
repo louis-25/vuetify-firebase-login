@@ -3,6 +3,12 @@
     <v-row class="text-center">
       <v-col>
       <v-img
+          :src="require('../assets/logo.png')"
+          class="my-3"
+          contain
+          height="200"
+        />
+        <v-img
           :src="require('../assets/rakun.png')"
           class="my-3"
           contain
